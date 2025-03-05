@@ -5,7 +5,7 @@ import compression from "vite-plugin-compression";
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [tailwindcss(), compression(), react()],
+  plugins: [tailwindcss(), react()],
   build: { chunkSizeWarningLimit: 6000 },
   base: "/",
 });
